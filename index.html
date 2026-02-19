@@ -18,37 +18,43 @@
         Select your Fighter
     </h1>
 
+<div class="card-body">
+    <form id="fighterForm">
+
+        <div class="mb-4">
+            <label for="name" class="form-label">Name of your fighter</label>
+            <input type="text" class="form-control" id="name"
+                   placeholder="Digit your fighter's name" required>
+        </div>
+
+        <div class="mb-4">
+            <label for="power" class="form-label">Power of your fighter</label>
+            <input type="text" class="form-control" id="power"
+                   placeholder="Digit your fighter's power" required>
+        </div>
+
+        <div class="mb-4">
+            <label for="realm" class="form-label">Realm of Origin</label>
+            <select class="form-select" id="realm" required>
+                <option value="">Select your Realm</option>
+                <option value="Earthrealm">Earthrealm</option>
+                <option value="ChaosRealm">ChaosRealm</option>
+                <option value="Netherrealm">Netherrealm</option>
+                <option value="Outworld">Outworld</option>
+                <option value="OrderRealm">OrderRealm</option>
+                <option value="Edenia">Edenia</option>
+            </select>
+        </div>
+
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-primary btn-lg">
+                Choose Fighter
+            </button>
+        </div>
+
+    </form>
 </div>
 
-  <div class="card-body">
-                        <form id="nameForm">
-                            <div class="mb-4">
-                                <label for="name" class="form-label">Name of your fighter</label>
-                                <input type="text" class="form-control"  name="name"
-                                       placeholder="Digit your fighter's name" required>
-<div class="card-body">
-                        <form id="powerForm">
-                            <div class="mb-4">
-                                <label for="power" class="form-label">Power of your fighter</label>
-                                <input type="text" class="form-control"  name="power"
-                                       placeholder="Digit your fighter's power" required>
-
-                                         <div class="mb-4">
-                                <label for="Reign" class="form-label">Realm of Origin</label>
-                                <select class="form-control" id="realm" required>
-                                    <option value="">Select your Realm</option>
-                                    <option value="Earthrealm">Earthrealm</option>
-                                    <option value="ChaosRealm">ChaosRealm</option>
-                                    <option value="Netherrealm">Netherrealm</option>
-                                    <option value="Outworld">Outworld</option>
-                                    <option value="OrderRealm">OrderRealm</option>
-                                    <option value="Edenia">Edenia</option>
-
-                                </select>
-                            </div>
-                               <div class="d-grid gap-2">
-                                <button type="submit" class="btn btn-primary btn-lg">Choose Fighter</button>
-                            </div>
     
 </body>
 </html>
