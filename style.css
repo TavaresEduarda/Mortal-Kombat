@@ -1,0 +1,10 @@
+ body {
+    background-color: #f8f9fa;
+    border-left: 30px solid rgb(250, 5, 5);
+    border-right: 30px solid rgb(250, 5, 5);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
