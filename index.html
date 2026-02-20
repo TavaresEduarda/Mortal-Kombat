@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,15 +10,16 @@
 
 
 <body>
-   <div class="d-flex align-items-center justify-content-center gap-3">
-    
-    <img src="Mortal.PNG" alt="MK Logo" class="img-fluid" style="width: 60px;">
+  <div class="box-container">
 
-    <h1 class="fw-bold" style="color: #d4af37;">
-        Select your Fighter
-    </h1>
+    <div class="d-flex align-items-center justify-content-center gap-3 mb-4">
+        <img src="Mortal.PNG" alt="MK Logo" class="img-fluid" style="width: 60px;">
 
-<div class="card-body">
+        <h1 class="fw-bold" style="color: #d4af37;">
+            Select your Fighter
+        </h1>
+    </div>
+
     <form id="fighterForm">
 
         <div class="mb-4">
@@ -48,18 +49,16 @@
 
         <div class="d-grid gap-2">
             <button onclick="addToList()" class="btn btn-primary btn-lg">
-                Choose Fighter
+                Choose Your Fighter
             </button>
         </div>
 
-        <div>
-            <ul id="list" class="mt-4"></ul>
-        </div>
+        <ul id="list" class="mt-4"></ul>
 
     </form>
+
 </div>
 
-    
 </body>
 </html>
 <link rel="stylesheet" href="style.css">

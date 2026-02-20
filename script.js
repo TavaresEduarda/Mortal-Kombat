@@ -1,5 +1,4 @@
-
-function addToList() {
+ function addToList() {
     let name = document.getElementById("name").value;
     let power = document.getElementById("power").value;
     let realm = document.getElementById("realm").value;
